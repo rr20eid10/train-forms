@@ -1,0 +1,67 @@
+body {
+  background: url("../i/train-pictures-4bg.png");
+	background-size: cover;   
+    background-position:center;  
+    height:100vh;  
+
+}
+
+.panel-default>.panel-heading.fd-bgcolor-lblue {
+	background:#00A9E0;
+	color:#fff;
+}
+
+
+
+.panel-footer.fd-bgcolor-darkblue {
+	background-color:#004062;
+	color:#fff;
+}
+
+
+.fd-bgcolor-orange {
+	background-color:#FB4F14;
+}
+
+
+.fd-bg-fade {
+	animation: pulse 2s forwards;
+	color:#fff;
+
+}
+
+@keyframes pulse {
+	0% {
+		background-color: #004062;
+	}
+	100% {
+		background-color: #FB4F14;
+	}
+} 
+
+.fd-bg-slide {
+	animation: fading 5s forwards;
+	color:#fff;
+
+}
+
+@keyframes fading {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+} 
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 767px) and (min-width : 0px) {
+  body {
+  	background-image:none !important;
+  	background-color:#fff;
+  }
+}                  
+
